@@ -110,3 +110,44 @@ footer {
     width: 50%;
     margin-left: 50px;
 }
+/* malware grid */
+
+.malware-info {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+
+}
+#malwareimg {
+    width: 300px;
+    height: 200px;
+    grid-column: 2/4;
+    grid-row: 2/4;
+
+}
+#phishingimg {
+    width: 300px;
+    height: 200px;
+    grid-column: 7/9;
+    grid-row: 2/4;
+
+}
+#malware-list-one {
+    grid-row: 4;
+    grid-column: 2/5;
+}
+.malware-info h2 {
+    grid-column: 3/8;
+    grid-row: 1/2;
+    font-size: 22px;
+    background-color: #89043d;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px black;
+    color: #2FE6DE;
+    text-align: center;
+    margin-top: 50px;
+}
+#malware-list-two {
+    grid-row: 4;
+    grid-column: 6/9;
+    margin-bottom: 75px;
+}
