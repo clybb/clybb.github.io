@@ -165,6 +165,7 @@ footer {
     align-self: center;
     background-color: #89043d;
     color: #2fe6de;
+    box-shadow: 0px 5px 10px black;
 }
 #malewarebytes-img {
     grid-column: 2/5;
