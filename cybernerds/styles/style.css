@@ -110,7 +110,7 @@ footer {
     width: 50%;
     margin-left: 50px;
 }
-/* malware grid */
+/* malware page */
 
 .malware-info {
     display: grid;
@@ -150,4 +150,32 @@ footer {
     grid-row: 4;
     grid-column: 6/9;
     margin-bottom: 75px;
+}
+/* Defense page */
+
+#defense-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+#defense-grid p {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    justify-self: center;
+    align-self: center;
+    background-color: #89043d;
+    color: #2fe6de;
+}
+#malewarebytes-img {
+    grid-column: 2/5;
+    grid-row: 4/5;
+    justify-self: center;
+    align-self: center;
+}
+#vpn {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    justify-self: center;
+    align-self: center;
+    margin-top: 68px;
 }
