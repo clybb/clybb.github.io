@@ -170,6 +170,7 @@ footer {
     background-color: #89043d;
     color: #2fe6de;
     box-shadow: 0px 5px 10px black;
+    padding: 20px;
 }
 #malewarebytes-img {
     grid-column: 2/5;
