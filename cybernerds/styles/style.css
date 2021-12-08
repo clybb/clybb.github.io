@@ -145,11 +145,15 @@ footer {
     color: #2FE6DE;
     text-align: center;
     margin-top: 50px;
+    padding: 20px;
 }
 #malware-list-two {
     grid-row: 4;
     grid-column: 6/9;
     margin-bottom: 75px;
+}
+#content li{
+    padding-bottom: 10px;
 }
 /* Defense page */
 
